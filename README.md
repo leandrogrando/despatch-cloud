@@ -18,5 +18,5 @@ I also used a package to generate logs of each request/response made by the lara
 3. Copy the .env.example file and rename it to .env, then set the credentials of a mysql database in this file.
 4. Run ```php artisan migrate``` to generete the database structure.
 5. In a terminate, left running the command ```php artisan schedule:work``` to run the cron job. (Or set up the cron job the traditional way).
-6. In another terminate I left running the command ```php artisan queue:work``` so that the jobs in the queue are run.
-7. Monitor the synchronization of the requests as the tables in the database are filled.
+6. In another terminate, left running the command ```php artisan queue:work``` so that the jobs in the queue are run.
+7. Monitor the synchronization of the orders as the tables in the database are filled.
